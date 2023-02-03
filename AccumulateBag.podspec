@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AccumulateBag"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.1"
   spec.summary      = "客户端埋点"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   AccumulateBag是一个简单的客户端埋点工具。该工具组要在于实现客户端的数据采集行为，并提供一个支持用户自定义上传服务器的网络接口协议。
                    DESC
 
-  spec.homepage     = "http://192.168.1.222:14253/fengxj/accumulatebag.git"
+  spec.homepage     = "https://github.com/acekiller/AccumulateBag.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://192.168.1.222:14253/fengxj/accumulatebag.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/acekiller/AccumulateBag.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
